@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Capturing</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class="red">
+            <div class="blue">
+                <div class="green">
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const divs = document.querySelectorAll('div')
+
+            divs.forEach(div => div.addEventListener('click', log, { capture:true }) )
+
+            function log(e){
+                console.log(this.classList.value)
+            }
+        </script>
+
+    </body>
+</html>

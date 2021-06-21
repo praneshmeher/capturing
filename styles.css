@@ -1,0 +1,14 @@
+div{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 100px;
+}
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+.green{
+    background: green;
+}
